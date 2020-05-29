@@ -57,11 +57,7 @@ from tensorflow.python.client import device_lib
 ```
 #### 合适版本组合
 ```bash
-conda tensorflow 1.2.1 tensorflow 1.8.0 cuda10
-```
-#### dlib安装：	
-```bash
-pip install dlib==19.7.0 face_recognition -i https://pypi.tuna.tsinghua.edu.cn/simple
+to set
 ```
 ## PyTroch
 #### install
@@ -143,6 +139,10 @@ group = parser.add_mutually_exclusive_group(required=False)
 group.add_argument('--gpu', dest='use_gpu', action='store_true')
 group.add_argument('--no-gpu', dest='use_gpu', action='store_false')
 parser.set_defaults(use_gpu=True)
+```
+## dlib合适版本	
+```bash
+dlib==19.7.0 face_recognition
 ```
 ## tqdm
 #### windows cmd环境新行问题解决
