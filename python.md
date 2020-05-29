@@ -20,12 +20,12 @@ conda config --set show_channel_urls yes(设置搜索时显示通道地址)
 ```
 ##### ~/.condarc
 ```
+auto_activate_base: false
 ssl_verify: true
 channels:
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
-  - defaults
 show_channel_urls: true
 ```
 #### 环境
