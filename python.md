@@ -32,6 +32,7 @@ show_channel_urls: true
 ```bash
 conda info -e
 conda create -n py36 python=3.6
+conda create -n rcan --clone edsr
 conda clean -p      #删除没有用的包
 conda remove -n py36 --all
 conda install -n py36 package_name(=version)
