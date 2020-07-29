@@ -49,8 +49,7 @@ conda install -c chembl easydict
 ```bash
 pip install scrapy -i https://pypi.tuna.tsinghua.edu.cn/simple #https://pypi.mirrors.ustc.edu.cn/simple
 
-#cuda10.2
-pip install torch==1.5.0 torchvision==0.6.0 -f https://download.pytorch.org/whl/torch_stable.html
+pip install torch==1.5.0+cu101 torchvision==0.6.0+cu101 -f https://download.pytorch.org/whl/torch_stable.html
 
 ```
 # 库
