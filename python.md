@@ -45,9 +45,13 @@ https://anaconda.org/
 conda install -c chembl easydict
 ```
 ## pip
-#### 清华源	
+#### 国内源	
 ```bash
-pip install scrapy -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install scrapy -i https://pypi.tuna.tsinghua.edu.cn/simple #https://pypi.mirrors.ustc.edu.cn/simple
+
+#cuda10.2
+pip install torch==1.5.0 torchvision==0.6.0 -f https://download.pytorch.org/whl/torch_stable.html
+
 ```
 # 库
 ## TensorFlow
