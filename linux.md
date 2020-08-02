@@ -68,6 +68,16 @@ diff -q	#仅报告文件是否相异,不报告详细的差异
 ```bash
 ln -s spath dpath
 ```
+#### 文件校验
+```bash
+# linux
+md5sum filepath
+sha1sum filepath
+
+# windows powershell
+# MD5(SHA1/SHA256/SHA384/SHA512/MACTripleDES/RIPEMD160)
+Get-FileHash -Path filepath -Algorithm MD5
+```
 #### firefox
 
 # 特殊命令
