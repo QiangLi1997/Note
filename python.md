@@ -54,14 +54,17 @@ pip install torch==1.5.0+cu101 torchvision==0.6.0+cu101 -f https://download.pyto
 ```
 # 库
 ## TensorFlow
-#### 检测GPU:
+#### 版本对应
+
+python, tensorflow, cuda, cudnn版本 [对应表](https://tensorflow.google.cn/install/source#linux)
+#### 安装
+```bash
+conda install tensorflow==1.*.* #conda自动安装对应的cudatoolkit, cudnn
+```
+#### 检测GPU
 ```python
 from tensorflow.python.client import device_lib
 	print(device_lib.list_local_devices())
-```
-#### 合适版本组合
-```bash
-to set
 ```
 ## PyTroch
 #### install
