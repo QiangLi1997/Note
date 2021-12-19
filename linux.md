@@ -86,7 +86,14 @@ Get-FileHash -Path filepath -Algorithm MD5
 创建：screen (-S name)
 分离：ctrl&a +d ATTENTION：press d AFTER a
 罗列：screen -ls
-恢复：screen -r id
+恢复：screen -r name
+```
+## tmux
+```bash
+创建：tmux (new -s name)
+分离：press ctrl&b; press d
+罗列：tmux ls
+恢复：tmux a(ttach) -t name(id)
 ```
 ### git
 ```bash
